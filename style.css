@@ -1,0 +1,670 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+}
+body header {
+  height: 782px;
+  padding: 50px 168px 0px 165px;
+  opacity: 1;
+  background-image: url(./images/photo_2023-02-25_20-29-56.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+body .header__navbar {
+  display: flex;
+}
+body .header__navbar img {
+  margin-right: 7px;
+}
+body .header__navbar p {
+  margin-bottom: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 129px;
+}
+body .header__navbar .header__list {
+  display: flex;
+}
+body .header__navbar .header__list ul {
+  display: flex;
+  margin-bottom: 0;
+}
+body .header__navbar .header__list ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+body .header__navbar .header__list ul li a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+body .header__navbar .header__choose {
+  display: flex;
+  margin-left: 93px;
+}
+body .header__navbar .header__choose img {
+  margin-right: 11px;
+}
+body .header__navbar .header__choose select {
+  border: none;
+  background: transparent;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-style: normal;
+  outline: none;
+  color: #FFFFFF;
+}
+body .header__navbar .header__choose select option {
+  color: black;
+  border: none;
+  background: transparent;
+}
+body .header__navbar .header__button {
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+body .header__navbar .header__button button {
+  background: transparent;
+  border: none;
+}
+body .header__navbar .header__button button a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 11px 28px 12px 29px;
+  font-style: normal;
+  border: none;
+}
+body .header__name {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .header__name h1 {
+  margin-top: 27px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  padding-bottom: 39px;
+}
+body .header__name__list p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 39;
+  padding-bottom: 39px;
+  margin-bottom: 0;
+}
+body .header__button__name {
+  display: flex;
+  justify-content: center;
+  margin-top: 39;
+}
+body .header__button__name button {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+}
+body .header__button__name button a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ED4C5C;
+  padding: 17px 53px 16px 52px;
+}
+
+nav {
+  height: 500px;
+  padding: 0px 260px 95px 165px;
+}
+nav .header__footer {
+  display: flex;
+  justify-content: space-between;
+}
+nav .header__footer .header__footer__name h2 {
+  margin-top: 140px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+nav .header__footer .header__footer__name p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+}
+nav .header__footer .header__footer__name a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #ED4C5C;
+}
+nav .header__footer .header__footer__photo .play {
+  position: absolute;
+  z-index: 1;
+  top: 905px;
+  left: 702px;
+}
+nav .header__footer .header__footer__photo img {
+  position: relative;
+  padding-top: 94px;
+}
+
+main .main___header .main__name {
+  padding: 158px 115px 63px 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .main___header .main__name h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+main .main___header .main__images {
+  display: flex;
+  padding: 0 85px 0 165px;
+  justify-content: space-between;
+}
+main .main___header .main__images .main___img img {
+  border-radius: 8px;
+  z-index: -1;
+  position: absolute;
+}
+main .main___header .main__images .main___img .main__text {
+  width: 293px;
+  height: 198px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 157px 0 0 29px;
+  padding: 33px 20px 0 20px;
+  text-align: center;
+}
+main .main___header .main__images .main___img .main__text h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+main .main___header .main__images .main___img .main__text p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #101010;
+  font-style: normal;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+main .main___header .main__images .main___img .main__text a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #ED4C5C;
+  font-style: normal;
+}
+main .main__footer .main__footer__name {
+  padding: 158px 115px 63px 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .main__footer .main__footer__name h2 {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  font-style: normal;
+  margin-bottom: 0;
+}
+main .main__footer .main__footer__images {
+  justify-content: space-between;
+  padding: 0 85px 108px 195px;
+  display: flex;
+}
+main .main__footer .main__footer__images .main___footer__img {
+  width: 255px;
+  height: 226px;
+}
+main .main__footer .main__footer__images .main___footer__img img {
+  padding: 0 69px 19px;
+  position: relative;
+}
+main .main__footer .main__footer__images .main___footer__img .img__footer {
+  padding: 0 69px 0;
+  position: absolute;
+  display: inline;
+  top: 2199px;
+  left: 210px;
+}
+main .main__footer .main__footer__images .main___footer__img .img__footer1 {
+  position: absolute;
+  display: inline;
+  top: 2203px;
+  left: 520px;
+}
+main .main__footer .main__footer__images .main___footer__img .img__footer2 {
+  position: absolute;
+  display: inline;
+  top: 2199px;
+  left: 820px;
+}
+main .main__footer .main__footer__images .main___footer__img .img__footer3 {
+  position: absolute;
+  display: inline;
+  top: 2211px;
+  left: 1133px;
+}
+main .main__footer .main__footer__images .main___footer__img .main__footer__text h4 {
+  padding-top: 19px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  font-style: normal;
+  margin-bottom: 0;
+}
+main .main__footer .main__footer__images .main___footer__img .main__footer__text p {
+  margin-top: 10px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  font-style: normal;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+section .section__header {
+  height: 500px;
+  background: #ED4C5C;
+  padding: 94px 216px 95px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+section .section__header .section__header__name h4 {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+section .section__header .section__header__name p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #FFFFFF;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+section .section__header .section__header__logo {
+  margin: 40px 0 0 0;
+}
+section .section__header .section__header__logo .fa-google-play {
+  width: 32px;
+  height: 32px;
+  margin-right: 23px;
+  color: #FFFFFF;
+}
+section .section__header .section__header__logo .fa-app-store-ios {
+  width: 32px;
+  height: 32px;
+  color: #FFFFFF;
+  margin-right: 23px;
+}
+section .section__header .section__header__logo .fa-windows {
+  width: 32px;
+  height: 32px;
+  color: #FFFFFF;
+}
+section .section__header .section__header__imgs .section__header__img img {
+  position: absolute;
+  border-radius: 15px;
+  left: 835px;
+  top: 2610px;
+  opacity: 0.5;
+}
+section .section__header .section__header__imgs .section__header__img1 img {
+  border-radius: 15px;
+  z-index: -1;
+  margin: 22px 150px 22px 0;
+  opacity: 0.5;
+}
+section .section__header .section__header__imgs .section__header__img2 {
+  position: absolute;
+  top: 2571px;
+  left: 580px;
+}
+section .section__header .section__header__imgs .section__header__img2 img {
+  border-radius: 15px;
+  z-index: -1;
+  margin: 22px 0px 22px 150px;
+}
+section .section__registration {
+  padding: 117px 165px 78px 176px;
+  height: 500px;
+  display: flex;
+}
+section .section__registration .section__registration__name {
+  width: 800px;
+}
+section .section__registration .section__registration__name h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: "Lato";
+  color: #000000;
+  margin-bottom: 0;
+}
+section .section__registration .section__registration__name p {
+  margin-top: 40px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  font-style: normal;
+  text-align: justify;
+  color: #000000;
+  margin-bottom: 0;
+}
+section .section__registration .section__registration__enter {
+  padding-left: 130px;
+}
+section .section__registration .section__registration__enter .input {
+  margin: 0 26px 24px 0;
+  padding: 21px 146px 20px 31px;
+  width: 255px;
+  height: 60px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  font-family: "Lato";
+}
+section .section__registration .section__registration__enter .input1 {
+  margin: 0 0 24px 0;
+  padding: 21px 149px 20px 31px;
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  font-family: "Lato";
+}
+section .section__registration .section__registration__enter .input2 {
+  margin: 0 0px 24px 0;
+  padding: 21px 403px 20px 31px;
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  font-family: "Lato";
+}
+section .section__registration .section__registration__enter select {
+  margin: 0 0px 27px 0;
+  display: flex;
+  padding: 21px 371px 20px 31px;
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  font-style: normal;
+}
+section .section__registration .section__registration__enter button {
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  border-radius: 6px;
+  padding: 17px 34px 16px 34px;
+}
+section .section__registration .section__registration__enter button a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+section .section__footer {
+  background: #FAFAFA;
+  height: 435px;
+  padding: 85px 196px 86px 161px;
+  display: flex;
+  justify-content: space-between;
+}
+section .section__footer .footer__address h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  font-family: "Lato";
+  margin-bottom: 33px;
+}
+section .section__footer .footer__address p {
+  margin-bottom: 141px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+  font-style: normal;
+}
+section .section__footer .footer__address .section__footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin-bottom: 0;
+  font-family: "Lato";
+}
+section .section__footer .footer__service h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  font-family: "Lato";
+  margin-bottom: 28px;
+}
+section .section__footer .footer__service ul {
+  padding: 0;
+}
+section .section__footer .footer__service ul li {
+  text-decoration: none;
+  list-style: none;
+}
+section .section__footer .footer__service ul li a {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: "Lato";
+}
+section .section__footer .footer__get__in__touch h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  font-family: "Lato";
+  margin-bottom: 33px;
+}
+section .section__footer .footer__get__in__touch ul {
+  padding: 0;
+  margin-bottom: 11px;
+}
+section .section__footer .footer__get__in__touch ul li {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+section .section__footer .footer__get__in__touch ul li a {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Lato";
+  color: #101010;
+}
+section .section__footer .footer__get__in__touch .footer__a a {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Lato";
+  color: #121212;
+  margin: 11px 0 20px 0;
+}
+section .section__footer .footer__get__in__touch .fa-facebook-f {
+  width: 14px;
+  height: 14px;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+section .section__footer .footer__get__in__touch .fa-linkedin-in {
+  width: 14px;
+  height: 14px;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+section .section__footer .footer__get__in__touch .fa-twitter {
+  width: 14px;
+  height: 14px;
+  margin-top: 20px;
+}
+section .section__footer .footer__we__support h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  font-family: "Lato";
+  margin-bottom: 33px;
+}/*# sourceMappingURL=style.css.map */
